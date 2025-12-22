@@ -88,7 +88,8 @@ export function isQueryInScope(query: string): boolean {
     "team", "portfolio", "solution", "training", "consulting"
   ];
   
-  const hasScope = scopeKeywords.some((keyword) => lowerQuery.includes(keyword));
+  // Check if query is within our scope (could be used for filtering)
+  scopeKeywords.some((keyword) => lowerQuery.includes(keyword));
   
   // If no scope keywords, assume it's a general question that might be answered
   // from FAQ or services
