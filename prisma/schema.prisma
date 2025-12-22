@@ -1,0 +1,40 @@
+// This is Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+// Knowledge base entries from Excel files and website scraping
+model KnowledgeEntry {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  category  String   // e.g., "About", "Services", "Contact", "FAQ"
+  question  String   // The question or topic
+  answer    String   // Detailed answer/information
+  source    String?  // Optional: "excel", "website", etc.
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([category])
+  @@index([question])
+}
+
+// Optional: Chat logs for analytics (bonus feature)
+model ChatLog {
+  id        String   @id @default(auto()) @map("_id") @db.ObjectId
+  sessionId String
+  query     String
+  response  String
+  timestamp DateTime @default(now())
+
+  @@index([sessionId])
+  @@index([timestamp])
+}
