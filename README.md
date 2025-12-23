@@ -106,7 +106,6 @@ OLLAMA_URL="http://localhost:11434"
 OLLAMA_MODEL="llama2"
 
 # Option 2: Groq (Free API - Fast)
-# GROQ_API_KEY="your_groq_api_key_here"
 # GROQ_MODEL="llama-3.1-70b-versatile"
 \`\`\`
 
@@ -132,7 +131,7 @@ npm run load-knowledge
 npm run dev
 \`\`\`
 
-Open [http://localhost:3000](http://localhost:3000)
+
 
 ---
 
@@ -229,24 +228,9 @@ Then run: `npm run load-knowledge` with production DATABASE_URL
 - Run: `npm run load-knowledge`
 - Check with: `npm run prisma:studio`
 
----
 
-## 📝 Assignment Submission
 
-**Required**:
-- ✅ GitHub Repository URL (public)
-- ✅ Live Demo URL (Vercel)
-- ✅ README with setup instructions
-- ✅ Sample Excel file included
 
-**Evaluation** (100 points):
-- Functionality: 35%
-- Code Quality: 25%
-- UI/UX: 20%
-- Architecture: 15%
-- Documentation: 5%
-
----
 
 ## 👨‍💻 Developer
 
