@@ -1,6 +1,6 @@
 # Kenmark ITan AI ChatbotThis is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-
+Live Demo : https://kenmark-chatbot-z7o2.vercel.app/
 
 > **NMIMS Intern Technical Assignment** - Full-stack AI-powered chatbot for Kenmark ITan Solutions## Getting Started
 
@@ -250,16 +250,9 @@ Then run: `npm run load-knowledge` with production DATABASE_URL
 
 ## 👨‍💻 Developer
 
-**[Your Name]**  
-Student ID: [Your ID]  
-Email: [Your Email]
+**GAURAV SONIGRA**  
 
-Built with ❤️ for NMIMS Internship Assignment
+Kenmark  NMIMS Internship Assignment
 
----
 
-## 🙏 Acknowledgments
 
-- Kenmark ITan Solutions
-- Next.js & Vercel
-- Ollama & Groq for free LLM access
