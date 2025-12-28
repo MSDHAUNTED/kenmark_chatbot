@@ -16,9 +16,7 @@ npm run dev
 
 
 
-##  Features# or
-
-pnpm dev
+##  Features
 
 - ✅ **AI-Powered Responses**: Uses local LLM (Ollama) or free APIs (Groq, OpenRouter)# or
 
