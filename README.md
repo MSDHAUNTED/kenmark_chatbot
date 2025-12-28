@@ -1,4 +1,4 @@
-# Kenmark ITan AI Chatbot.
+# Kenmark ITan Solutions AI Chatbot.
 
 Live Demo : https://kenmark-chatbot-z7o2.vercel.app/
 
