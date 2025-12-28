@@ -10,15 +10,13 @@ An intelligent chatbot assistant that answers queries about Kenmark ITan Solutio
 
 
 
-🌐 **Company**: [Kenmark ITan Solutions](https://kenmarkitan.com)```bash
+🌐 **Company**: [Kenmark ITan Solutions](https://kenmarkitan.com)```
 
 npm run dev
 
----# or
 
-yarn dev
 
-## 🚀 Features# or
+##  Features# or
 
 pnpm dev
 
@@ -44,13 +42,13 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Learn More
 
-## 📦 Tech Stack
+##  Tech Stack
 
 To learn more about Next.js, take a look at the following resources:
 
 | Category | Technology |
 
-|----------|------------|- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+| Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 
 | **Frontend** | Next.js 16, React 19, TypeScript, Tailwind CSS 4 |- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
@@ -70,7 +68,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
-## 🛠️ Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 
@@ -141,7 +139,7 @@ Try these questions:
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 \`\`\`
 kenmark-chatbot/
@@ -161,7 +159,7 @@ kenmark-chatbot/
 
 ---
 
-## 🔄 How It Works (RAG Pipeline)
+##  How It Works (RAG Pipeline)
 
 1. **User Query** → Question typed in chat
 2. **Retrieval** → Search MongoDB for relevant entries
@@ -173,7 +171,7 @@ kenmark-chatbot/
 
 ---
 
-## 🚀 Deployment to Vercel
+##  Deployment to Vercel
 
 \`\`\`powershell
 git init
@@ -191,7 +189,7 @@ Then run: `npm run load-knowledge` with production DATABASE_URL
 
 ---
 
-## 📊 Available Scripts
+##  Available Scripts
 
 - `npm run dev` - Start dev server
 - `npm run build` - Build for production
@@ -201,7 +199,7 @@ Then run: `npm run load-knowledge` with production DATABASE_URL
 
 ---
 
-## 🎨 Customization
+##  Customization
 
 ### Add Your Own Knowledge
 
@@ -211,7 +209,7 @@ Then run: `npm run load-knowledge` with production DATABASE_URL
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 **MongoDB Connection Failed**
 - Check DATABASE_URL in `.env`
@@ -229,7 +227,7 @@ Then run: `npm run load-knowledge` with production DATABASE_URL
 
 
 
-## 👨‍💻 Developer
+##  Developer
 
 **GAURAV SONIGRA**  
 
