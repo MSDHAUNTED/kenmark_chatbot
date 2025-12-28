@@ -54,6 +54,7 @@ export default function Home() {
 
           <footer className="mt-16 text-center text-sm text-gray-500 dark:text-gray-400">
             <p>Built for NMIMS Internship Assignment</p>
+            <p>By Gaurav Sonigra</p>
           </footer>
         </main>
       </div>
