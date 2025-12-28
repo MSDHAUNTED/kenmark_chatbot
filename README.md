@@ -1,4 +1,4 @@
-# Kenmark ITan AI ChatbotThis is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kenmark ITan AI Chatbot.
 
 Live Demo : https://kenmark-chatbot-z7o2.vercel.app/
 
