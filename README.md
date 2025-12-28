@@ -97,12 +97,9 @@ Edit `.env` file in the project root:
 
 \`\`\`env
 # MongoDB Atlas Connection String
-DATABASE_URL="mongodb+srv://username:password@cluster.mongodb.net/kenmark-chatbot?retryWrites=true&w=majority"
-
 # AI Configuration (Choose ONE)
 
 # Option 1: Ollama (Local LLM - Preferred)
-OLLAMA_URL="http://localhost:11434"
 OLLAMA_MODEL="llama2"
 
 # Option 2: Groq (Free API - Fast)
